@@ -22,5 +22,3 @@ tags = [tag.getText() for tag in soup.select(".tags-box .tag")]
 
 for tag in tags:
     print(tag)
-
-
