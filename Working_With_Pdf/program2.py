@@ -5,7 +5,6 @@ file_path = "Working_Business_Proposal.pdf"
 with open(file_path, "rb") as file:
 
     pdf_reader = PyPDF2.PdfReader(file)
-
     # Check if the PDF has at least one page
     if len(pdf_reader.pages) > 0:
         page_one = pdf_reader.pages[0]
