@@ -24,7 +24,7 @@ if __name__ == "__main__":
         choice = int(input("[1] Next Prime number\n[2] Exit\n"))
         if choice == 1:
             number = nextPrimeNumber(number)
-            print(f"{number} is the Next Prime Number")
+            print(f"{number} is the Next Prime Number.")
         elif choice == 2:
             loopBool = False
         else:
